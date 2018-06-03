@@ -3,11 +3,10 @@ layout: post
 title:  "맥에서 MyEBook 실행방법"
 date:   2018-01-21 17:30:00 +0900
 programming:   true
-categories: programming
+categories: app
 tags:   programming app book ebook
-background-image: /assets/2018-01-21.png
 ---
-![image](/assets/2018-01-21.png)
+![image](/assets/img/2018-01-21.png)
 
 맥용 MyEBook을 구매하신 분들 중 실행이 안되시는 분들을 위한 안내입니다. 현재 맥용 MyEBook은 터미널에서 실행해야 합니다. 마우스로 아이콘 클릭으로 실행시 csv 파일 저장이 안되는 경우가 있기때문입니다.
 
@@ -31,4 +30,4 @@ MyEBook      Python       chromedriver lib          myebook.gif
 ~/Downloads/MyEBook $ chmod u+x *
 ```
 
-![image](/assets/2018-01-07.png)
+![image](/assets/img/2018-01-07.png)
