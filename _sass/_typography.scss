@@ -94,8 +94,8 @@ sub {
 }
 
 //----------------------------DOUBLE
-.paginator,
-#main-nav {
+//#main-nav,
+.paginator, {
   letter-spacing: $l-s-double;
 }
 
@@ -251,8 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer-main,
-.paginator,
-#main-nav {
+.paginator, {
   font-family: $font-family-open-sans-condensed;
 }
 
@@ -262,8 +261,7 @@ pre,
   font-family: $font-family-code;
 }
 
-.title,
-#title {
+#main-nav {
   font-family: $font-family-open-sans-condensed;
   color: #fcfcfc;
   #font-weight: bold;
