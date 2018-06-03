@@ -67,8 +67,7 @@ include:
 
 sass:
   sass_dir: _sass
-sass:
-    style: compressed
+  style: compressed
 
 plugins:
   - jekyll-paginate
