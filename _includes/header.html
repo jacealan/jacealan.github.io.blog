@@ -1,8 +1,8 @@
 <header>
-    <div class="title">{{ site.title }}</div>
+    <!--<div class="title">{{ site.title }}</div>-->
     <nav id="main-nav">
         <ul>
-            <li><a class="fancy-nav" href="{{ site.baseurl }}/index.html">home</a></li>
+            <li><a class="fancy-nav" href="{{ site.baseurl }}/index.html">{{ site.title }}</a></li>
             {% for link in site.categories %}
             <li><a class="fancy-nav" href="{{ site.baseurl }}/categories/{{ link | first | downcase }}">{{ link | first
                 }}</a></li>
